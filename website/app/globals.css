@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base styles (NO @apply here) */
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: system-ui, sans-serif;
+}
+
+/* Force include classes */
